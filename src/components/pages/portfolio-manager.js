@@ -22,7 +22,7 @@ export default class PortfolioManager extends Component {
   handleDeleteClick(portfolioItem) {
     axios
       .delete(
-        `https://api.devcamp.space/portfolio/portfolio_items/${portfolioItem.id}`,
+        `https://hectorsanchez.devcamp.space/portfolio/portfolio_items/${portfolioItem.id}`,
         { withCredentials: true }
       )
       .then(response => {
@@ -52,7 +52,7 @@ export default class PortfolioManager extends Component {
   getPortfolioItems() {
     axios
       .get(
-        "https://jordan.devcamp.space/portfolio/portfolio_items?order_by=created_at&direction=desc",
+        "https://hectorsanchez.devcamp.space/portfolio/portfolio_items?order_by=created_at&direction=desc",
         {
           withCredentials: true
         }
