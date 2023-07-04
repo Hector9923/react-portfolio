@@ -7,7 +7,7 @@ export default function () {
       <div className="left-column">
         <img
           style={{
-            width: "1000px",
+            width: "700px",
             backgroundSize: "cover",
             backgroundPosition: "center"
           }}
@@ -15,7 +15,7 @@ export default function () {
           alt="Profile Picture" />
       </div>
       <div className="right-column">
-        Hola! soy Hector Sanchez, soy un desarollador junior full-stack e intérprete bilingüe (Inglés y Español)
+        Hey there! I'm Hector Sanchez, a junior front-end developer, I work at a start-up company building sites and web apps for a community in Mexico and I also work as a freelancer for any job you may need, you can hire me through my contact information.
       </div>
     </div>
   );

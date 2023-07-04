@@ -5,25 +5,25 @@ import { withRouter } from "react-router";
 import { NavLink } from "react-router-dom";
 
 const NavigationComponent = (props) => {
-const dynamicLink = (route, linkText) => {
-  return (
-    <div className="nav-link-wrapper">
-      <NavLink to={route} activeClassName="nav-link-active">
-        {linkText}
-      </NavLink>
-    </div>
-  );
-};
+  const dynamicLink = (route, linkText) => {
+    return (
+      <div className="nav-link-wrapper">
+        <NavLink to={route} activeClassName="nav-link-active">
+          {linkText}
+        </NavLink>
+      </div>
+    );
+  };
 
   const handleSignOut = () => {
-    axios.delete("https://api.devcamp.space/logout", {withCredentials: true }).then(response => {
+    axios.delete("https://api.devcamp.space/logout", { withCredentials: true }).then(response => {
       if (response.status === 200) {
         props.history.push("/");
         props.handleSuccessfulLogout();
       }
       return response.data;
     }).catch(error => {
-        console.log("Error signing out", error);
+      console.log("Error signing out", error);
     });
   };
 
@@ -48,28 +48,28 @@ const dynamicLink = (route, linkText) => {
           </NavLink>
         </div>
 
-        <div className="nav-link-wrapper">
+        {/* <div className="nav-link-wrapper">
           <NavLink to="/blog" activeClassName="nav-link-active">
             Blog
           </NavLink>
-        </div>
+        </div> */}
 
-        {props.loggedInStatus === "LOGGED_IN" ? (
+        {/* {props.loggedInStatus === "LOGGED_IN" ? (
         dynamicLink("/portfolio-manager", "Portfolio Manager") 
-        ): null}
+        ): null} */}
       </div>
 
       <div className="right-side">
-      HECTOR SANCHEZ
-      
-      {props.loggedInStatus === 'LOGGED_IN' ? (
-        <a onClick={handleSignOut}>
-          <FontAwesomeIcon icon="sign-out-alt" />
-        </a>
-      ) : null}
+        HECTOR SANCHEZ DEV
+
+        {/* {props.loggedInStatus === 'LOGGED_IN' ? (
+          <a onClick={handleSignOut}>
+            <FontAwesomeIcon icon="sign-out-alt" />
+          </a>
+        ) : null} */}
       </div>
     </div>
-    );
-  };
-  
-  export default withRouter(NavigationComponent);
+  );
+};
+
+export default withRouter(NavigationComponent);

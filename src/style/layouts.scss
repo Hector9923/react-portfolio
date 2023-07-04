@@ -1,10 +1,13 @@
+// About styles
 .content-page-wrapper {
+    margin-top: 20px;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: calc(100vh - 84px);
   
     .right-column {
+      font-size: 30px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -34,4 +37,63 @@
       }
     }
   }
-  
+
+  // Home styles
+.home-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// contact styles
+.contact-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.contact-left-side {
+  height: 525px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  background-color: #f3f5f7;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.contact-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact-link {
+  color: #0b70df;
+  font-size: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-info-link {
+  display: flex;
+}
+
+.contact-link-text {
+  margin-right: 80px;
+  display: flex;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 10px;
+}
+.contact-right-side {
+
+}
