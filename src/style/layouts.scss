@@ -1,44 +1,43 @@
 // About styles
 .content-page-wrapper {
-    margin-top: 20px;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: calc(100vh - 84px);
-  
-    .right-column {
-      font-size: 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding: 100px;
-  
-      .contact-bullet-points {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 21px;
-  
-        .bullet-point-group {
-          display: flex;
-          align-items: center;
-  
-          .icon {
-            font-size: 2em;
-            color: $teal;
-          }
-  
-          .text {
-            font-size: 1.5em;
-            font-weight: 900;
-            margin-left: 21px;
-          }
+  margin-top: 20px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: calc(100vh - 84px);
+
+  .right-column {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .contact-bullet-points {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 21px;
+
+      .bullet-point-group {
+        display: flex;
+        align-items: center;
+
+        .icon {
+          font-size: 2em;
+          color: $teal;
+        }
+
+        .text {
+          font-size: 1.5em;
+          font-weight: 900;
+          margin-left: 21px;
         }
       }
     }
   }
+}
 
-  // Home styles
+// Home styles
 .home-title {
   display: flex;
   flex-direction: column;
@@ -51,6 +50,7 @@
   margin-top: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 50px;
 }
 
@@ -94,6 +94,47 @@
   display: flex;
   gap: 10px;
 }
-.contact-right-side {
 
+@media (max-width: 480px) {
+  .content-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .left-column img {
+    display: none;
+  }
+
+  .right-column {
+    margin: 10px;
+    padding-left: 30px;
+  }
+
+  .resume {
+    padding: 10px;
+  }
+  .home-title {
+    padding: 20px;
+  }
+  
+  .contact-container {
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .contact-left-side {
+    width: 80%;
+    height: 300px;
+    overflow: visible;
+    display: block
+  }
+
+  .contact-right-side img {
+    display: none;
+  }
+
+  .contact-link-text {
+    margin-right: 15px;
+  }
 }

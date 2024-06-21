@@ -47,26 +47,6 @@ const NavigationComponent = (props) => {
             Contact
           </NavLink>
         </div>
-
-        {/* <div className="nav-link-wrapper">
-          <NavLink to="/blog" activeClassName="nav-link-active">
-            Blog
-          </NavLink>
-        </div> */}
-
-        {/* {props.loggedInStatus === "LOGGED_IN" ? (
-        dynamicLink("/portfolio-manager", "Portfolio Manager") 
-        ): null} */}
-      </div>
-
-      <div className="right-side">
-        HECTOR SANCHEZ DEV
-
-        {/* {props.loggedInStatus === 'LOGGED_IN' ? (
-          <a onClick={handleSignOut}>
-            <FontAwesomeIcon icon="sign-out-alt" />
-          </a>
-        ) : null} */}
       </div>
     </div>
   );

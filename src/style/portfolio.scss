@@ -48,3 +48,14 @@
     transition: 1s;
     filter: brightness(10%);
 }
+
+@media(max-width: 480px) {
+    .portfolio-items-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-wrapper {
+        overflow-x: hidden;
+    }
+}
