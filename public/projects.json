@@ -1,0 +1,24 @@
+[
+    {
+      "link": "https://ivannutriologo.netlify.app/",
+      "image": "https://ivannutriologo.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FivanProfile.885103de.jpg&w=640&q=75",
+      "title": "Ivan Prieto Nutriologo | Nutritionist website",
+      "technologies": "Next js, CSS and Netlify",
+      "description": "This is a project built with Next js and CSS, mobile responsive. It has a main page with the nutritionist info, appointment information to get customers, followed by pretty layout of images, then an example of a diet table, and testimonies at the end. It also has a contact page that works with email js for users to book appointments and the nutritionist Ivan receives them in his email inbox"
+    },
+    {
+      "link": "https://managewhistle.com",
+      "image": "https://whistlecoding.com/static/media/logo_sin_fondo_sin_letra.2088edefb59dc1fc5fed.2088edefb59dc1fc5fed.png",
+      "title": "Manage Whistle | Docs website for Whistle Coding LLC",
+      "technologies": "Mkdocs MUI and Netlify",
+      "description": "Documentation website for Whistle Coding startup, built with Mkdocs"
+    },
+    {
+      "link": "https://mistybabyshower.site",
+      "image": "https://mistybabyshower.site/images/img6.jpg",
+      "title": "Baby shower invitation",
+      "technologies": "HTML, CSS and Netlify",
+      "description": "I quickly bulit a responsive landing page in a couple hours to invite users to a baby shower, bought domain and deployed site on Netlify"
+    }
+  ]
+  
