@@ -1,0 +1,20 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.navbar-container a {
+    color: #96406B;
+}
+
+.navbar-container a:hover {
+    color: #E6F4F1;
+}
+
+.navbar-container .active-link {
+    color: #FFEBCD;
+}
