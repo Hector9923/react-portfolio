@@ -9,6 +9,7 @@
 
 .navbar-container a {
     color: #96406B;
+    text-decoration: none;
 }
 
 .navbar-container a:hover {
@@ -17,4 +18,11 @@
 
 .navbar-container .active-link {
     color: #FFEBCD;
+    text-decoration: underline;
+}
+
+.navbar-container {
+    gap: 40px;
+    padding: 20px;
+    font-size: 20px;
 }

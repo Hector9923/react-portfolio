@@ -10,9 +10,6 @@ function NavBar() {
             <NavLink to='/about' className={({ isActive }) => (isActive ? 'active-link' : '')}>
                 About me
             </NavLink>
-            <NavLink to='/contact' className={({ isActive }) => (isActive ? 'active-link' : '')}>
-                Contact me
-            </NavLink>
         </div>
     )
 }

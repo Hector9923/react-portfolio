@@ -1,18 +1,18 @@
 [
     {
+      "image": "https://dsm01pap001files.storage.live.com/y4mw-Ib2_l2rufB-lNW6zY4qfXIN-JRSk6SXi-TAE9tgQBxVBo94uqf_ZIAj6ZAeo5g9g2HKKOBtetfBRX_W2FwJBY5XumKuGqCTzMFZsy-pZedkQ6jDtVvck9BrKhgut2OkpTZBgmxxDlNUN25yrdrT21xb891tGBOD6HGfJLcW3kgz2UXmxU726ZZeFTMr8QYouREHn_pZOGgAli7X6xVXmVRNC8tXDbXPLTQCdrEbI0?encodeFailures=1&width=512&height=512",
+      "title": "Dynamic docs web application",
+      "description": "it uses Django and Django rest framework for the back-end Next js for the front-end. It has: Login authentication for internal super users only making it more private for the team access only using the user model from Django and using obtain_auth_token from rest framework. It makes API calls to the backend to fetch the docs which support Mark down rendering code blocks for example. It has dynamic routing. It uses react-linkify to make external links for a domains model coming from the backend.",
+      "technologies": "Django, DRF, Next js",
+      "repo": "https://github.com/Hector9923/dynamic-docs-webapp"
+    },
+    {
       "image": "https://ivannutriologo.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FivanProfile.885103de.jpg&w=640&q=75",
       "title": "Ivan Prieto Nutriologo | Nutritionist website",
       "link": "https://ivannutriologo.netlify.app/",
       "description": "This is a project built with Next js and CSS, mobile responsive. It has a main page with the nutritionist info, appointment information to get customers, followed by pretty layout of images, then an example of a diet table, and testimonies at the end. It also has a contact page that works with email js for users to book appointments and the nutritionist Ivan receives them in his email inbox",
       "technologies": "Next js, CSS and Netlify",
       "repo": "https://github.com/Hector9923/nutriologo-ivan"
-    },
-    {
-      "image": "https://dsm01pap001files.storage.live.com/y4mYC-mDB4DsoOsHxVg-GLLF05w8o_cRNctYtwmceTD1yDzqHKGC0g24yPjrU8bIkE2LetddtuDMhRT6iWYCqxb2M6WJtj6vMLH80zXWnU67R8cXhFuEihwUvfguh4ElWdBLtmQ1mlAreMd9bUSYoIc0v3p_MbiRcldxsGE6hF9we76yR-WTDTN1zY7OwQFgRwpWVB5m5B2npfxEPm4kEXIZHIor1k1V1ptVYHH8p2ukxo?encodeFailures=1&width=1287&height=858",
-      "title": "Dynamic docs web application",
-      "description": "it uses Django and Django rest framework for the back-end Next js for the front-end. It has: Login authentication for internal super users only making it more private for the team access only using the user model from Django and using obtain_auth_token from rest framework. It makes API calls to the backend to fetch the docs which support Mark down rendering code blocks for example. It has dynamic routing. It uses react-linkify to make external links for a domains model coming from the backend.",
-      "technologies": "Django, DRF, Next js",
-      "repo": ""
     },
     {
       "image": "https://whistlecoding.com/static/media/logo_sin_fondo_sin_letra.2088edefb59dc1fc5fed.2088edefb59dc1fc5fed.png",
@@ -23,10 +23,11 @@
       "repo": "https://github.com/adrianlebaron/management-whistle-coding/tree/mkdocs-material"
     },
     {
-      "link": "https://mistybabyshower.site",
       "image": "https://mistybabyshower.site/images/img6.jpg",
       "title": "Baby shower invitation",
+      "link": "https://mistybabyshower.site",
       "technologies": "HTML, CSS and Netlify",
-      "description": "I quickly bulit a responsive landing page in a couple hours to invite users to a baby shower, bought domain and deployed site on Netlify"
+      "description": "I quickly bulit a responsive landing page in a couple hours to invite users to a baby shower, bought domain and deployed site on Netlify",
+      "repo": "https://github.com/Hector9923/misty-baby-shower"
     }
   ]
